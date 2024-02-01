@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Shirt Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>T-Shirt Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Our T-Shirt Shop!</h2>
+        <p>Explore our collection of stylish T-shirts.</p>
+    </section>
+
+    <section id="products">
+        <h2>Featured Products</h2>
+        <div class="product">
+            <img src="tshirt1.jpg" alt="T-Shirt 1">
+            <h3>T-Shirt 1</h3>
+            <p>High-quality cotton T-shirt in various colors. $19.99</p>
+            <a href="product.html">View Details</a>
+        </div>
+
+        <div class="product">
+            <img src="tshirt2.jpg" alt="T-Shirt 2">
+            <h3>T-Shirt 2</h3>
+            <p>Comfortable and stylish T-shirt with unique design. $24.99</p>
+            <a href="product.html">View Details</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 T-Shirt Shop</p>
+    </footer>
+
+</body>
+
+</html>
